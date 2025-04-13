@@ -15,5 +15,6 @@ endif()
 pico_sdk_init()
 
 # Add subdirectories
-add_subdirectory(examples/midi2usbhost)
+# add_subdirectory(examples/midi2usbhost)  # Commented out to avoid library conflicts
+add_subdirectory(examples/midi2usbhub-web)
 # add_subdirectory(src)  # Uncomment when src code is added 
